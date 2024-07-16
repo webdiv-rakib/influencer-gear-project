@@ -96,10 +96,15 @@ button {
 .main-camera {
     width: 100%;
 }
+
 /* Brand logo */
-.brand-logo{
+.brand-logo {
     margin-top: 25px;
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 25px;
+}
+
+.hr-1 {
+    border: 1px solid rgba(192, 204, 218, 0.6);
 }
