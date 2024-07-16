@@ -168,7 +168,7 @@ ul li {
     justify-content: center;
     align-items: center;
     gap: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
 }
 
 .feature-image {
@@ -200,21 +200,19 @@ ul li {
 }
 
 /* footer section style */
-footer {
-    width: 100%;
-}
 
 .footer-section {
+    height: 200px;
     background-color: #0a0826;
-    text-align: center;
 }
 
 .footer {
     color: white;
+    text-align: center;
+    margin-top: 50px;
 }
 
 .footer-title {
-    margin-top: 50px;
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 3px;
