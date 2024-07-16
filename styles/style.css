@@ -172,7 +172,7 @@ ul li {
 }
 
 .feature-image {
-    margin-left: 100px;
+    /* margin-left: 100px; */
 }
 
 .feature-description {
@@ -295,5 +295,16 @@ ul li {
     /* Collection section */
     .card-section {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* feature section */
+    .feature-section{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+    .feature-description{
+        text-align: center;
     }
 }
