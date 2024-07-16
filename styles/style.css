@@ -171,10 +171,6 @@ ul li {
     margin-bottom: 120px;
 }
 
-.feature-image {
-    /* margin-left: 100px; */
-}
-
 .feature-description {
     margin-top: 23px;
 }
@@ -250,6 +246,10 @@ ul li {
         width: 100%;
     }
 
+    .nav-title {
+        text-align: center;
+    }
+
     .navbar {
         flex-direction: column;
     }
@@ -260,10 +260,12 @@ ul li {
 
     .banner-section {
         flex-direction: column-reverse;
+        margin: 0 auto;
     }
 
     .banner-title {
         margin-top: 20px;
+        text-align: center;
     }
 
     .description {
@@ -298,13 +300,14 @@ ul li {
     }
 
     /* feature section */
-    .feature-section{
+    .feature-section {
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
         margin-bottom: 100px;
     }
-    .feature-description{
+
+    .feature-description {
         text-align: center;
     }
 }
