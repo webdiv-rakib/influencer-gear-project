@@ -113,7 +113,7 @@ button {
 }
 
 /* Responsive style for small device */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 576px) {
     body{
         width: 100%;
     }
@@ -126,6 +126,9 @@ button {
     .banner-section{
         flex-direction: column-reverse;
     }
+    .banner-title{
+        margin-top: 20px;
+    }
     .description{
         width: 100%;
         text-align: center;
@@ -135,10 +138,15 @@ button {
         gap: 0;
     }
 
+    .banner-image{
+        border: none;
+    }
+
     .brand-logo{
         display: grid;
         grid-template-columns: repeat(4,1fr);
-        justify-content: center;
-        align-items: center;
+        justify-content: space-evenly;
+        /* flex-wrap: wrap; */
+
     }
 }
