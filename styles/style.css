@@ -114,39 +114,49 @@ button {
 
 /* Responsive style for small device */
 @media screen and (max-width: 576px) {
-    body{
+    body {
         width: 100%;
     }
-    .navbar{
+
+    .navbar {
         flex-direction: column;
     }
-    .nav-list{
+
+    .nav-list {
         flex-direction: column;
     }
-    .banner-section{
+
+    .banner-section {
         flex-direction: column-reverse;
     }
-    .banner-title{
+
+    .banner-title {
         margin-top: 20px;
     }
-    .description{
+
+    .description {
         width: 100%;
         text-align: center;
         margin: 0;
     }
-    .banner-section{
+
+    .banner-section {
         gap: 0;
     }
 
-    .banner-image{
+    .banner-image {
         border: none;
     }
 
-    .brand-logo{
-        display: grid;
-        grid-template-columns: repeat(4,1fr);
-        justify-content: space-evenly;
-        /* flex-wrap: wrap; */
+    .hr-1 {
+        display: none;
+    }
 
+    .brand-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 50px;
     }
 }
