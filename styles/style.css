@@ -13,14 +13,14 @@ body {
 }
 
 /* Navbar section style */
-nav {
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 50px;
 }
 
-ul {
+.nav-list {
     display: flex;
     align-items: center;
     gap: 34px;
@@ -107,4 +107,23 @@ button {
 
 .hr-1 {
     border: 1px solid rgba(192, 204, 218, 0.6);
+}
+
+/* Responsive style for small device */
+@media screen and (max-width: 700px) {
+    body{
+        width: 100%;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    .nav-list{
+        flex-direction: column;
+    }
+    .banner-section{
+        flex-direction: column-reverse;
+    }
+    .description{
+        margin: 0 auto;
+    }
 }
