@@ -130,15 +130,27 @@ button {
     gap: 24px 24px;
     width: 80%;
     margin: 0 auto;
-
+    margin-bottom: 50px;
 }
 
 .main-card {
     border-radius: 5px;
-    padding: 10px;
+    padding: 15px;
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
 }
 
+.see-more {
+    width: 75%;
+    margin: 0 auto;
+    text-align: right;
+
+}
+
+.more {
+    color: rgba(224, 44, 109, 0.87);
+    font-size: 1rem;
+    font-weight: 700;
+}
 
 
 
